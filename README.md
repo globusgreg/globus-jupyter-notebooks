@@ -33,7 +33,7 @@ To open a browser window with the Jupyter notebook interface:
 
 If running remotely, for example, in a tutorial EC2 instance:
 
-    jupyter notebook --ip="*" --no-browser
+    jupyter notebook --ip="*" --port 443 --no-browser
 
 ## Links
 
